@@ -29,4 +29,4 @@ React.js (for the remake)
 
 OpenWeather API
 
-Try it yourself here -> https://github.com/Nabhaan-A/react-weather-app-nabhaan.git
+Try it yourself here -> https://nabhaan-a.github.io/react-weather-app-nabhaan/
