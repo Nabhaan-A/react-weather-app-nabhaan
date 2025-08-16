@@ -1,0 +1,88 @@
+body{
+    font-family:cursive;
+    background-image: url(Nimbusbgi.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    transition: background-image 1s ease-in-out;
+    align-items: center;
+    
+    
+}
+
+.card{
+    backdrop-filter:blur(2px);
+    margin-left: 34.5%;
+    margin-top: 50px;
+    margin-right: 43%;
+    box-shadow: rgba(0, 0, 0, 0.451) -10px 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    height: 60px;
+    transition: height 0.5s ease;
+    flex-direction: column;
+    width: 400px;
+    line-height: 30px;
+    
+}
+.card.card--expanded {
+    height: 110px;
+}
+.card.card--expanded2 {
+    height: 400px;
+}
+.cityInput{
+    height: 30px;
+    width: 330px;
+    border-radius: 8px;
+    border-color: azure;
+    background-color: rgba(85, 83, 81, 0.314);
+    padding: 10px;
+}
+.cityInput::placeholder {
+    color: white;
+}
+
+
+
+button{
+    border-radius: 20px;
+    border-color: azure;
+    height: 40px;
+    position: relative;
+    top: 6px; 
+}
+.descDisplay{
+    font-style: italic;
+    color: aliceblue;
+
+}
+.cityDisplay, .tempDisplay{
+    font-size: 50px;
+    color: aliceblue;
+
+}
+.humidityDisplay{
+    font-size: 1rem;
+    color: aliceblue;
+
+}
+.emojiDisplay{
+    position: relative;
+    bottom: 30px;
+    font-size: 60px;
+
+}
+.errorDisplay{
+    
+    color:rgba(0, 0, 0, 0.471)
+}
+.NimbusLogo{
+    height: 200px;
+    width: 400px;
+    margin-left: 35%;
+    mix-blend-mode: multiply;
+    border-radius: 500px;
+}
+
